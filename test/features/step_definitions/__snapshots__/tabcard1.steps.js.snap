@@ -1,0 +1,157 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tabcard1 Component Checking the flatlist data is rendering correctly or not 1`] = `
+<View
+  style={
+    {
+      "flex": 1,
+      "flexDirection": "column",
+    }
+  }
+>
+  <View
+    style={
+      {
+        "marginRight": 6,
+      }
+    }
+  >
+    <Image
+      source={
+        {
+          "uri": "https://example.com/image1.jpg",
+        }
+      }
+      style={
+        {
+          "height": 216,
+          "resizeMode": "contain",
+          "width": 140,
+        }
+      }
+    />
+  </View>
+</View>
+`;
+
+exports[`Tabcard1 Component Checking the flatlist data is rendering correctly or not 2`] = `
+<View
+  style={
+    {
+      "flex": 1,
+      "flexDirection": "column",
+    }
+  }
+>
+  <React.Fragment>
+    <View>
+      <Image
+        source={
+          {
+            "uri": "https://example.com/image2.jpg",
+          }
+        }
+        style={
+          {
+            "height": 160,
+            "marginRight": 1,
+            "resizeMode": "contain",
+            "width": 150,
+          }
+        }
+      />
+      <View
+        style={
+          {
+            "alignItems": "flex-end",
+            "bottom": 0,
+            "justifyContent": "flex-end",
+            "left": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+          }
+        }
+      >
+        <View
+          style={
+            {
+              "backgroundColor": "rgba(255, 255, 255, 0.8)",
+              "borderRadius": 25,
+              "padding": 5,
+              "right": 12,
+              "top": 13,
+            }
+          }
+        >
+          <Icon
+            allowFontScaling={false}
+            color="#696969"
+            name="heart-outline"
+            size={21}
+          />
+        </View>
+      </View>
+    </View>
+    <View>
+      <Text
+        ellipsizeMode="tail"
+        numberOfLines={2}
+        style={
+          {
+            "color": "#363636",
+            "fontSize": 12,
+            "fontWeight": "500",
+            "marginTop": 7,
+            "maxWidth": 139,
+          }
+        }
+      >
+        Milan Fabric 3 Seater Sofa in Sky Blue Colour
+      </Text>
+    </View>
+    <View>
+      <Text
+        style={
+          {
+            "marginTop": 1,
+          }
+        }
+      >
+        <Text
+          style={
+            {
+              "fontWeight": "bold",
+            }
+          }
+        >
+          ₹12,499 
+        </Text>
+        <Text
+          style={
+            {
+              "color": "black",
+              "fontSize": 12,
+              "fontWeight": "500",
+              "textDecorationLine": "line-through",
+            }
+          }
+        >
+           ₹17,000
+        </Text>
+        <Text
+          style={
+            {
+              "color": "green",
+              "fontSize": 14.5,
+              "fontWeight": "bold",
+            }
+          }
+        >
+           72%
+        </Text>
+      </Text>
+    </View>
+  </React.Fragment>
+</View>
+`;
